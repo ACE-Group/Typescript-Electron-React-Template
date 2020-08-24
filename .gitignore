@@ -1,0 +1,8 @@
+node_modules
+release
+._*
+.env
+buildResources
+build
+bundle
+.vscode
