@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 300;
+	src: url('./assets/fonts/Gotham-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gotham';
+	src: url('./assets/fonts/Gotham-Book.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-weight: normal;
+	src: url('./assets/fonts/Gotham-Book.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 400;
+	src: url('./assets/fonts/Gotham-Book.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-weight: bold;
+	src: url('./assets/fonts/Gotham-Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 600;
+	src: url('./assets/fonts/Gotham-Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 900;
+	src: url('./assets/fonts/Gotham-Black.otf') format('opentype');
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: Gotham;
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
