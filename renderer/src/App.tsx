@@ -48,7 +48,7 @@ const PrivateRoute = ({ children, ...rest }) => {
 	);
 };
 
-function App() {
+const App = () => {
 	const theme = Object.assign(defaultTheme, darkTheme);
 
 	return (
@@ -67,6 +67,6 @@ function App() {
 			</Wrapper>
 		</ThemeProvider>
 	);
-}
+};
 
 export default App;

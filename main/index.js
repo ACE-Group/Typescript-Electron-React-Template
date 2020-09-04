@@ -27,14 +27,12 @@ function createWindow() {
 		webPreferences: {
 			enableRemoteModule: true,
 			devTools: isDev,
-			nodeIntegration: true,
+			// nodeIntegration: true,
 			preload: path.join(__dirname, "preload.js")
 		}
 	});
 
 	mainWindow.setMenuBarVisibility(true); ////THIS REMOVES THE HEADER MENU
-
-	// Loading directly by the webbrowser
 
 	if (process.env.NODE_ENV === "development") {
 		mainWindow.loadURL("http://localhost:3000");
