@@ -1,4 +1,4 @@
-# electron-quick-start
+# electron-typescript-react-template
 
 **Clone and run for a quick way to see Electron in action.**
 
