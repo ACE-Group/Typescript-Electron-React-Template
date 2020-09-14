@@ -36,7 +36,7 @@ const Content = styled.div`
 	color: white;
 `;
 
-function Main(props: any) {
+const Main = () => {
 	return (
 		<Container>
 			<Logo>
@@ -47,6 +47,6 @@ function Main(props: any) {
 			</Content>
 		</Container>
 	);
-}
+};
 
 export default withRouter(withTheme(Main));

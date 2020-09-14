@@ -50,12 +50,7 @@ const Content = styled.div`
 	}
 `;
 
-function Login(props: any) {
-	const [ viewed, setViewed ] = useState(false);
-	const skip = () => {
-		setViewed(true);
-	};
-
+const Login = () => {
 	return (
 		<Container>
 			<Logo>
@@ -67,6 +62,6 @@ function Login(props: any) {
 			</Content>
 		</Container>
 	);
-}
+};
 
 export default withRouter(withTheme(Login));
