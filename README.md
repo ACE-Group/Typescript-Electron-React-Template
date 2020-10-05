@@ -15,7 +15,7 @@ Fully configured for packaging and distribution. You can just follow the guides 
 	APPLE_PWD=XXXX-XXXX-XXXX-XXXX (Apple app-specific password. You can genereate here https://appleid.apple.com. Will be used for notarization) \
 	APPLE_ID=XXX@XXXX.XXX (Apple ID. You can also get this from https://appleid.apple.com)\
 	PROVIDER=XXXXXXXXXX (Apple team ID)\
-	PUBLIC_URL=.\
+	PUBLIC_URL=./
 
 
 ## To Use
